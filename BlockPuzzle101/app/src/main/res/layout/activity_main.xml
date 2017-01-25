@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ajay.build.blockpuzzle101.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:rowCount="4"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:layout_weight="0.08">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw0"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/bat1"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw1"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/bat2"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw2"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:src="@drawable/bat3"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw3"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/bat4"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw4"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/bat5"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw5"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:src="@drawable/bat6"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw6"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:src="@drawable/bat7"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw7"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:src="@drawable/bat8"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/iw8"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:src="@drawable/bat9"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+    </GridLayout>
+
+</LinearLayout>
+

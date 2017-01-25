@@ -1,0 +1,26 @@
+// If user wins a level
+
+If (arrays.equals(correct_id_seq, rand_id_seq)) {
+Intent intent = new Intent(getApplicationContext().ResultActivity.
+startActivity(intent);
+finish();
+}
+
+// onCreate for new activity
+// finish to kill activity
+
+
+// 3 ways to continue onscreen activity to next screen - Intent, shared preferences, static int time.play = 0; or activityname.time_play //To pass a value along screen//
+
+
+
+
+============ Popup messages ==============
+Toast 
+snackbar
+// Make a snackbar
+LinearLayout LinearLayout = (LinearLayout)
+findViewById(R.id.linear_main);
+Snackbar snackbar = snackbar.make(linearLayout, "Weldone! wait 10 s to play the next pluzzle or click stop to finish.",
+Snackbar.LENGTH_LONG);
+snackbar.show();

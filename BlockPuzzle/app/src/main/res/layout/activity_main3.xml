@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.build.blockpuzzle.Main3Activity">
+
+    <Button
+        android:text="New Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/newgamebtn"
+        android:onClick="startGame"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/imageView"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Author: Ajay                     ||               JC317897"
+        android:ems="10"
+        android:layout_below="@+id/exitbtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/editTextMain"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exitbtn"
+        android:onClick="exitBtn"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:textSize="24sp"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/newgamebtn"
+        android:layout_alignStart="@+id/newgamebtn" />
+
+    <ImageView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/bat"
+        android:id="@+id/imageView"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Welcome to Block Puzzle!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:id="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:textSize="36sp" />
+
+</RelativeLayout>

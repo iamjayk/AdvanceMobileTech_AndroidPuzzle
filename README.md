@@ -7,6 +7,6 @@ A 4x4 Block Puzzle Game developed on Android Studio
 
 Compatibility:
 
-- Android Version: 4.4 Kitkat & +
+- Android Version: 4.4 Kitkat +
 
-- Device Screen Resolution: 5" & +
+- Device Screen Resolution: 5" +

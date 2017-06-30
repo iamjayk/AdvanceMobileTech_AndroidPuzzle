@@ -12,4 +12,4 @@ Compatibility:
 - Device Screen Resolution: 5" +
 
 Final Version:
-[Link to Download](https://drive.google.com/open?id=0B7-R11liN9_GbzlseGlseF9waEU)
+[Link to Download Code](https://drive.google.com/open?id=0B7-R11liN9_GbzlseGlseF9waEU)

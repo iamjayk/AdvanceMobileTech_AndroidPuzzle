@@ -13,3 +13,6 @@ Compatibility:
 
 Final Version:
 [Link to Download Code](https://drive.google.com/open?id=0B7-R11liN9_GbzlseGlseF9waEU)
+
+#### APK File
+ [Download](https://github.com/ajayk800/AdvanceMobileTech_AndroidPuzzle/raw/master/BlockPuzzle.apk)
